@@ -201,4 +201,4 @@ curl http://localhost:3000/api/dashboard/summary \
 - Add rate limiting.
 - Add refresh tokens.
 - Add automated tests.
-- Add pagination metadata for dashboard lists if needed.
+- Add pagination metadata for dashboard lists if needed.
