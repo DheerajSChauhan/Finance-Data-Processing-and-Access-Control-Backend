@@ -202,3 +202,15 @@ curl http://localhost:3000/api/dashboard/summary \
 - Add refresh tokens.
 - Add automated tests.
 - Add pagination metadata for dashboard lists if needed.
+
+  
+To verify and test the functionality of all backend APIs, Postman was used as an API testing tool. A collection named "Finance Dashboard API" was created, containing all endpoints related to authentication, user management, transactions, and dashboard analytics.
+
+Collection variables such as base URL and authentication token were configured to streamline request execution. The login API was used to generate a token dynamically, which was then automatically stored and applied to all secured endpoints using Bearer authentication.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e80ec677-15d5-4518-9893-842b527980b7" />
+
+The following screenshot shows the organized Postman collection with all API requests used for testing the system.
+<img width="358" height="804" alt="image" src="https://github.com/user-attachments/assets/92404c28-69ca-4be4-bd54-43e3271d8f56" />
+
+All API endpoints were successfully tested using Postman. The system correctly handled CRUD operations for users and transactions, and provided accurate dashboard insights such as total income, expenses, and trends. The use of Postman collections improved testing efficiency and ensured consistency across all API requests.
